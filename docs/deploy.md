@@ -102,7 +102,7 @@ docker run \
         && apt update \
         && apt install -y git zip \
         && COMPOSER_CACHE_DIR=/root/composer/ composer install --no-dev --no-interaction --no-plugins --no-scripts --prefer-dist \
-        && rm  /usr/local/bin/composer
+        && rm  /usr/local/bin/composer'
 ```
 
 ### Creating a tarball
